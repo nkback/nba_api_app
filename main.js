@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 
     // Hit the api
-    nbaApiHit("http://stats.nba.com/stats/scoreboard/?GameDate=02/16/2018&LeagueID=00&DayOffset=0", function(error, data) {
+    nbaApiHit("https://stats.nba.com/stats/scoreboard/?GameDate=02/16/2018&LeagueID=00&DayOffset=0", function(error, data) {
         if (error) {
             console.log("There was an error", error);
         }
